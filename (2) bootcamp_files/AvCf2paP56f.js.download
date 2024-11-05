@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("CreatorCollaborationEntityOrigin",[],(function(a,b,c,d,e,f){a=Object.freeze({ENT_POST_COLLABORATION:"ent_post_collaboration",ENT_VIDEO_COLLABORATOR:"ent_video_collaborator"});f["default"]=a}),66);
+__d("XFBCreatorCollaborationEntityOriginUtils.facebook",["$InternalEnumUtils","CreatorCollaborationEntityOrigin"],(function(a,b,c,d,e,f,g){a=d("$InternalEnumUtils").createToJSEnum(c("CreatorCollaborationEntityOrigin"));b=d("$InternalEnumUtils").createFromJSEnum(c("CreatorCollaborationEntityOrigin"));g.toJSEnum=a;g.fromJSEnum=b}),98);

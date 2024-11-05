@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("LSTriggerOnDemandCutoverIfNeeded",["LSIssueNewTask"],(function(a,b,c,d,e,f){function a(){var a=arguments,c=a[a.length-1],d=[],e=[];return c.sequence([function(e){return d[0]=new c.Map(),d[0].set("open_thread_id",a[0]),d[1]=d[0].get("open_thread_id"),d[0],d[2]=c.toJSON(d[0]),c.storedProcedure(b("LSIssueNewTask"),c.i64.to_string(d[1]),c.i64.cast([0,741]),d[2],void 0,void 0,c.i64.cast([0,0]),c.i64.cast([0,0]),void 0,void 0,c.i64.cast([0,0]),c.i64.cast([0,0]))},function(a){return c.resolve(e)}])}a.__sproc_name__="LSE2EEMessagingMetadataMailboxTriggerOnDemandCutoverIfNeededStoredProcedure";e.exports=a}),null);
+__d("LSTriggerOnDemandCutoverIfNeededStoredProcedure",["LSTriggerOnDemandCutoverIfNeeded","cr:8709"],(function(a,b,c,d,e,f,g){function a(a,b){return c("LSTriggerOnDemandCutoverIfNeeded")(b.waJid,a)}g["default"]=a}),98);
